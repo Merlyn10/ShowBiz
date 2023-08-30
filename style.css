@@ -1,0 +1,50 @@
+.carousel-inner img{
+    border-radius: 50px;
+    padding: 15px;
+    height: 90vh;
+    width: 60vw;
+}
+.container {
+    margin:20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    animation: mymove 5s infinite;
+}
+.card {
+    margin: 10px;
+    padding:5px;
+}
+.but{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    padding:20px;
+    text-align: center;
+}
+@keyframes mymove {
+    from {background-color:rgb(60, 58, 58);}
+    to {background-color: black;}
+  }
+  .col {
+    width:90%;
+    position: relative;
+    left:50px;
+  }
+  .extro {
+    background-image: linear-gradient(black,rgb(83, 80, 80));
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    position: relative;
+    top:20px;
+    color: white;
+    
+}
